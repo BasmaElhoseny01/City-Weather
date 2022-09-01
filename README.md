@@ -1,5 +1,5 @@
 # City-Weather
-Web site Built using react to check weather of City choosen by the user.The Shown data are Temprature in celusuis , humdidty percentage, wind Speed and Description of weather state
+Website built using react to check the weather of the city chosen by the user. The Shown data are temperature in celsius, humidity percentage, wind Speed, and Description of the weather state
 
 
 ## Demo:
@@ -7,8 +7,8 @@ https://user-images.githubusercontent.com/72309546/187986954-599a383d-6fe3-4959-
 
 ### To Run WebSite:
 ✔ install repository</br>
-✔ Open Termial in the project file</br>
-✔ run: npm intsall   ➠ To install node_modules folder</br>
+✔ Open Terminal in the project file</br>
+✔ run: npm install   ➠ To install node_modules folder</br>
 ✔ run: npm install react-router-dom   ➠ To install react router</br>
 ✔ run: npm install axios ➠ To install axios</br>
 ✔ run: npm start</br>
