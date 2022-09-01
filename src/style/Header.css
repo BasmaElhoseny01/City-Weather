@@ -1,0 +1,58 @@
+.Header {
+    height: fit-content;
+    width: 100%;
+    
+
+    text-align: center;
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.LogoHeader {
+    width: 100%;
+    /* background-image: linear-gradient(to right, #F6F4E8 , yellow); */
+    margin: auto;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Line {
+    /* border-top:2px Gray solid ;
+     */
+    border-top: 2px #31525B solid;
+
+    width: 50%
+}
+
+.SocailMedia {
+    /* width:30%; */
+    width: fit-content;
+    height: fit-content;
+
+    border: 2px solid #31525B;
+    /* border-top: none; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Icon {
+    width: 30px;
+    margin: 5px;
+}
+
+.LogoHeader img {
+    width: 80px;
+    height: fit-content;
+}

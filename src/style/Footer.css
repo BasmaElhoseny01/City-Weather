@@ -1,0 +1,12 @@
+.Footer{
+    height: 20px;
+    width: 100%;
+
+
+    background-image: linear-gradient(0.25turn,#B3DEE5, #FFA101);
+
+
+    text-align: center;
+    position:absolute;
+    bottom:0;
+}

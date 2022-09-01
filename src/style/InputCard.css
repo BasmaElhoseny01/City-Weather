@@ -1,0 +1,48 @@
+.InputCardDiv{
+    height: 100vh;
+    
+    display: flex;
+}
+
+.InputCard{
+    width: 40%;
+    height: 40%;
+    
+
+    border-radius: 10px;
+    border: 5px solid #FFA101;
+
+    padding: 20px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.InputCard select{
+    width: 200px;
+    margin: 10px;
+}
+
+.InputCard button{
+    background-color: #FFA101;
+    text-decoration: none;
+
+    border-radius: 8px;
+    border:5px solid #FFA101;
+
+    width: fit-content;
+    padding: 5px;
+}
+
+.InputCard button :hover{
+   font-weight: bolder;
+   padding: 10px;
+}
+
+.InputCard a{
+    text-decoration: none;
+    color: black;
+}

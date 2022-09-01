@@ -1,0 +1,75 @@
+.WeatherCardDiv{
+    height: 100vh;
+
+    display: flex;
+}
+.WeatherCard{
+    width: 50%; 
+
+    margin: auto;
+    padding: 10px 20px 10px 10px;
+
+    border-radius: 10px;
+    border: 5px solid #FFA101;
+}
+
+.Top{
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Icon_Temp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Icon_Temp img{
+
+    width:90px;
+    margin: 2px;
+}
+
+.Bottom{
+    padding: 0px 30px 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Left{
+    width:fit-content;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.BackButton{
+    background-color: #FFA101;
+    text-decoration: none;
+
+    border-radius: 8px;
+    border:5px solid #FFA101;
+
+    width: fit-content;
+    padding: 5px;
+}
+
+.BackButton:hover{
+    font-weight: bolder;
+    padding: 5px;
+ }
+ 
+.WeatherCard a{
+    text-decoration: none;
+    color: black;
+}
+
+
