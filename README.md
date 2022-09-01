@@ -30,4 +30,4 @@ DONE 😜</br>
 <a href="https://openweathermap.org/">Open Weather API</a>
 
 
-##  Send to me You FeedBack 😎 
+##  Send to me Your FeedBack 😎 
