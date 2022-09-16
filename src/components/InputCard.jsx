@@ -81,7 +81,7 @@ function InputCard({ set_Image, set_Temp, set_City, set_Country, set_Description
                     </select>
                 </div>
 
-                <button onClick={CheckWeather}><Link to={City === "" ? '/' : '/result'}>Check Weather 🌧️</Link></button>
+                <button onClick={CheckWeather}><Link to={City === "" ? '/City-Weather' : '/City-Weather/result'}>Check Weather 🌧️</Link></button>
             </div>
         </div>
     )

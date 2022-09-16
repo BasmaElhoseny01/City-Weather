@@ -19,7 +19,7 @@ function WeatherCard({ Image, Temp, City, Country, Description, Wind_Speed, Humi
         <div className="Bottom">
           <div className='Left'>
             <h2>🌤️ {Description}</h2>
-            <button className='BackButton'><Link to="/">New Search</Link></button>
+            <button className='BackButton'><Link to="/City-Weather">New Search</Link></button>
           </div>
           <div>
             <h2>💨 {Wind_Speed} m/sec</h2>

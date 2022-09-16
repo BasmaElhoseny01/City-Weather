@@ -25,8 +25,8 @@ function App() {
       <Header />
         <Router>
           <Routes>
-            <Route path="/" element={<InputCard set_Image={set_Image} set_Temp={set_Temp} set_City={set_City} set_Country={set_Country} set_Description={set_Description} set_Wind_Speed={set_Wind_Speed} set_Humidity={set_Humidity} />} />
-            <Route path="/result" element={<WeatherCard Image={Image} Temp={Temp} City={City} Country={Country} Description={Description} Wind_Speed={Wind_Speed} Humidity={Humidity} />} />
+            <Route path="/City-Weather" element={<InputCard set_Image={set_Image} set_Temp={set_Temp} set_City={set_City} set_Country={set_Country} set_Description={set_Description} set_Wind_Speed={set_Wind_Speed} set_Humidity={set_Humidity} />} />
+            <Route path="/City-Weather/result" element={<WeatherCard Image={Image} Temp={Temp} City={City} Country={Country} Description={Description} Wind_Speed={Wind_Speed} Humidity={Humidity} />} />
           </Routes>
         </Router>
       <Footer />
